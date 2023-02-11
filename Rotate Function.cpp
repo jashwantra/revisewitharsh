@@ -1,4 +1,4 @@
-class Solution {
+class Solution  {
 public:
     int maxRotateFunction(vector<int>& nums) {
         int sum=accumulate(nums.begin(),nums.end(),0);
